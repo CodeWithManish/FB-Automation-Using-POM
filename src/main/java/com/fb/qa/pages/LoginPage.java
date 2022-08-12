@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.fb.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
-	//page factory - or:
+	//page factory - object repository:
 		@FindBy(name = "email")
 		WebElement username;
 		
